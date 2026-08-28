@@ -1,0 +1,4 @@
+# dsh-language-control bundle patch: mounted by `dsh plugin add` automatically.
+- insert:
+    - id: language-control
+      name: '@deepseek-ai/dsh-language-control'
