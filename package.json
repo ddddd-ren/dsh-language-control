@@ -1,6 +1,6 @@
 {
   "name": "@deepseek-ai/dsh-language-control",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DSH plugin that forces the agent's chain-of-thought and reasoning to stay in Chinese via a per-step system-prompt injection — 让 Agent 的思考过程也自动使用中文",
   "type": "module",
   "main": "./lib/index.js",
@@ -32,6 +32,6 @@
   },
   "peerDependencies": {
     "@deepseek-ai/cordis": "^4.0.1",
-    "@deepseek-ai/dsh-host-webserver": "^0.1.0-rc.6"
+    "@deepseek-ai/dsh-host-webserver": "^0.1.0-rc.6 || ^0.2.0-rc.1"
   }
 }
